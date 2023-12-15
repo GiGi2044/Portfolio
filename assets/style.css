@@ -20,12 +20,11 @@ body {
   justify-content: space-around;
   padding: 20px;
   width: 100%;
+
 }
 
 .header-title {
   flex: 1;
-  justify-content: center;
-  text-align: center;
 }
 
 .header-img {
