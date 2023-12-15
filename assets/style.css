@@ -1,0 +1,39 @@
+@import "navbar.css";
+@import "footer.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+	max-width: 90vw;
+	margin: 20px;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+}
+
+.header-title {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-img {
+  flex: 1;
+  text-align: center;
+}
+
+.header-img img {
+  width: 100%;
+  max-width: 400px;
+}
