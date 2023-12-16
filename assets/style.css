@@ -1,5 +1,6 @@
 @import "navbar.css";
 @import "footer.css";
+@import "header.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -12,27 +13,4 @@ body {
 .container {
 	max-width: 90vw;
 	margin: 20px;
-  display: flex;
-}
-
-.header {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  width: 100%;
-
-}
-
-.header-title {
-  flex: 1;
-}
-
-.header-img {
-  flex: 1;
-  text-align: center;
-}
-
-.header-img img {
-  width: 100%;
-  max-width: 400px;
 }
